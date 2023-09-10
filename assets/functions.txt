@@ -1,0 +1,41 @@
+Functions
+
+function abrirCarrinho() {
+    document.getElementById("carrinho").classList.add("height: 100vh;");
+    document.getElementById("carrinho").classList.remove("height: 20px;");
+}
+
+function fecharCarrinho() {
+    document.getElementById("carrinho").classList.remove("margin-left: 65em;");
+    document.getElementById("carrinho").classList.add("margin-left: 90em;");
+
+}
+
+function inicializarCarrinho() {
+    const botaoFecharCarrinho = document.getElementById("fechar")
+    const botaoAbrirCarrinho = document.getElementById("abrir-carrinho")
+
+    botaoFecharCarrinho.addEventListener('click', fecharCarrinho);
+    botaoAbrirCarrinho.addEventListener('click', abrirCarrinho);
+}
+
+
+
+function abrirCarrinho() {
+        document.getElementById("carrinho").classList.add("carrinho-aberto");
+        document.getElementById("carrinho").classList.remove("carrinho-fechado");
+    }
+
+        function fecharCarrinho() {
+            document.getElementById("carrinho").classList.remove("carrinho-aberto");
+            document.getElementById("carrinho").classList.add("carrinho-fechado");
+
+        }
+
+        function inicializarCarrinho() {
+            const botaoFecharCarrinho = document.getElementById("fechar")
+            const botaoAbrirCarrinho = document.getElementById("abrir-carrinho")
+
+        botaoFecharCarrinho.addEventListener('click', fecharCarrinho);
+        botaoAbrirCarrinho.addEventListener('click', abrirCarrinho);
+    }

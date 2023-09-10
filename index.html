@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/iconfinder-basket-4341280_120547.ico" type="image/x-icon">
+    <title>E-Commerce Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="cart-closed" id="carrinho">
+            <div id="cabeçalho-carrinho">
+                <p>My Cart</p>
+                <button style="height: 1.7em; color: antiquewhite; background-color: rgb(194, 0, 0);" onclick="fecharCarrinho()" id="fechar">X</button>
+            </div>
+            
+            <section id="Produtos-Carrinho">
+                <article id="compra-final">
+                    
+                    <img id="robo" style="height: 8em;" src="assets/img/product-1.jpg" alt="imagem-carrinho">
+                    
+                
+                <p class="roupa" id="amor">White Coat</p>
+            
+                    <p id="paixao">Size: M</p>
+                   <p id="meteoro">Price: $70</p>
+                
+                </article>
+            <a href="checkout.html"><button style="height: 2.5em;width: 10em;font-size: 0.9em;" class="onepiece">Finish Buy</button></a>
+        </section>
+        </section>
+            
+        <header class="logo">
+            <a href="index.html"><img class="hashtag" src="assets/logo/shein-logo.png" alt="logo"></a>
+
+            <div style="margin-top: -50px; margin-left: 57em; margin-right: 15px; margin-bottom: 0; height: 3em; ">
+            <a href="histórico.html"><button id="purchases" class="button">History</button></a>
+            <button id="purchases-2" onclick="abrirCarrinho()" class="button">My Cart</button>
+            </div>
+            
+        </header>
+            <div>
+            <h1>Products</h1>
+            </div>
+       <section class="cata" id="container-produto">
+        
+        <div class="catalogo" id="card-produto-1">
+            <img style="height: 300px;" src="assets/img/product-1.jpg" alt="produto 1" >
+            <p class="sukuna">Zara</p>
+            <p>White Coat</p>
+            <p>Price: $70</p>
+            <button class="onepiece" onclick="AddtoCart2()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-2">
+            <img style="height: 300px;" src="assets/img/product-2.jpg" alt="produto 2" >
+            <p>Zara</p>
+            <p>Black Coat with Wool</p>
+            <p>Price: $85</p>
+            <button class="onepiece" onclick="AddtoCart()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-3">
+            <img style="height: 300px;" src="assets/img/product-3.jpg" alt="produto 3" >
+            <p>Zara</p>
+            <p>Suede Jacket</p>
+            <p>Price: $60</p>
+            <button class="onepiece" onclick="AddtoCart3()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-4">
+            <img style="height: 300px;" src="assets/img/product-4.jpg" alt="produto 4" >
+            <p>Zara</p>
+            <p>Wool Blend Overcoat</p>
+            <p>Price: $160</p>
+            <button class="onepiece" onclick="AddtoCart4()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-5">
+            <img style="height: 300px;" src="assets/img/product-5.jpg" alt="produto 5" >
+            <p>Zara</p>
+            <p>Wide Padded Velvet Shirt</p>
+            <p>Price: $110</p>
+            <button class="onepiece" onclick="AddtoCart5()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-6">
+            <img style="height: 300px;" src="assets/img/product-6.jpg" alt="produto 6" >
+            <p>Zara</p>
+            <p>Wool Coat with Buttons</p>
+            <p>Price: $170</p>
+            <button class="onepiece" onclick="AddtoCart6()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-7">
+            <img style="height: 300px;" src="assets/img/product-7.jpg" alt="produto 7" >
+            <p class="rotulo">Zara</p>
+            <p>Coat with Buttons</p>
+            <p>Price: $75</p>
+            <button class="onepiece" onclick="AddtoCart7()">Add to Cart</button>
+
+        </div>
+
+        <div class="catalogo" id="card-produto-8">
+            <img style="height: 300px;" src="assets/img/product-8.jpg" alt="produto 8" >
+            <p>Zara</p>
+            <p>Long Vest with Belt</p>
+            <p>Price: $88</p>
+            <button class="onepiece" onclick="AddtoCart8()">Add to Cart</button>
+
+        </div>
+        
+       </section>
+    </main>
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>

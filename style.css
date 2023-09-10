@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+body {
+    background-color: rgb(155, 155, 155);
+}
+
+img {
+    height: 300px;
+    
+}
+
+#container-produto {
+    background-color: rgb(155, 155, 155);
+    
+}
+
+.marca {
+    color: blue;
+}
+
+.cata {
+    
+    align-items: center;
+    justify-content: center;
+    
+    display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 50px;
+  grid-row-gap: 2em;
+  
+  
+}
+
+.logo {
+    
+    background-color: rgba(9, 9, 73, 0.705);
+    box-shadow: inset;
+    
+}
+
+.hashtag {
+    height: 5em;
+    padding-left: 1em;
+    
+    
+
+}
+
+.button {
+    width: 80px;
+    height:40px;
+    
+    
+}
+
+.catalogo {
+    border-style: solid;
+    border-color: rgb(104, 9, 192);
+    box-shadow: 5px 2.5px 2.5px rgb(35, 5, 63);
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+#carrinho {
+    position: fixed;
+    margin-top: 0;
+    
+    margin-right: 15px;
+    margin-bottom: 0;
+    align-items: end;
+    justify-content: end;
+    background-color: rgb(22, 22, 73);
+    height: 100vh;
+    width: 30em;
+    color: aliceblue;
+    
+}
+
+#cabeçalho-carrinho {
+    display: flex;
+    margin: 1em;
+    
+}
+
+#fechar {
+    margin-left: 6em;
+}
+
+#Produtos-Carrinho {
+    margin-left: 10px;
+    padding-left: 0.7em;
+}
+
+.cart {
+    
+    margin-left: 70em;
+}
+
+.cart-closed {
+    margin-left: 90em
+}
+
+.roupa {
+    padding-right: 40em;
+    margin-right: 40em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+
+
+p {
+    font-family: 'Righteous', cursive;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+#robo {
+    border-style: solid;
+    border-color: aliceblue;
+    box-shadow: 5px 2.5px 2.5px rgb(174, 177, 180);
+}
+
+img {
+    max-width: 12em;
+    object-fit: cover;
+    
+    
+}
+
+.sukuna {
+    text-align: center;
+}
+
+button {
+    margin-bottom: 8px;
+}
+
+#purchases, #purchases-2 {
+    background-color: rgb(45, 45, 161);
+    color: white;
+}
+
+#purchases:hover, #purchases-2:hover {
+    background-color: white;
+    color: rgb(5, 5, 107);
+}
+
+.onepiece {
+    background-color: white;
+    color: rgb(5, 5, 107);
+    height: 2.5em;
+    width: 7.5em;
+}
+
+.onepiece:hover {
+    background-color: rgb(45, 45, 161);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Righteous';
+    color: azure;
+    font-size: 2.5em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+button {
+    border-radius: 20px;
+}
